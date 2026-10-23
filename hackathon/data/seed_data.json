@@ -1,0 +1,25 @@
+{
+  "chunks": [
+    {"doc_id": "DOC-001", "source": "protocol:AEG-TR-001 section 4.2", "text": "Trial AEG-TR-001 evaluates an oral glucose-lowering agent in adults with type 2 diabetes. Participants with estimated glomerular filtration rate below 45 are excluded."},
+    {"doc_id": "DOC-002", "source": "formulary:metformin", "text": "Metformin dosing for adults starts at 500 mg once daily with meals and titrates to a maximum of 2000 mg per day. Metformin is contraindicated when eGFR is below 30."},
+    {"doc_id": "DOC-003", "source": "interaction:warfarin", "text": "Warfarin combined with aspirin increases the risk of bleeding. Monitor INR closely and review antiplatelet therapy before co-prescribing."},
+    {"doc_id": "DOC-004", "source": "interaction:nsaid", "text": "NSAIDs such as ibuprofen can reduce renal function in patients with chronic kidney disease and may affect blood pressure control with ACE inhibitors."},
+    {"doc_id": "DOC-005", "source": "guideline:hypertension", "text": "First-line management of hypertension in adults includes thiazide-type diuretics, ACE inhibitors, ARBs, or calcium channel blockers, selected by comorbidity."},
+    {"doc_id": "DOC-006", "source": "diagnostic:troponin", "text": "Elevated high-sensitivity troponin with ischemic symptoms supports a diagnosis of myocardial infarction. Serial measurements are required."},
+    {"doc_id": "DOC-007", "source": "protocol:AEG-TR-002 section 2.1", "text": "Trial AEG-TR-002 is a phase II study of an anti-inflammatory biologic in moderate ulcerative colitis. The primary endpoint is clinical remission at week 12."},
+    {"doc_id": "DOC-008", "source": "interaction:statin", "text": "Simvastatin given with strong CYP3A4 inhibitors such as clarithromycin raises the risk of myopathy. Dose limits apply."},
+    {"doc_id": "DOC-009", "source": "laboratory:hba1c", "text": "An HbA1c of 6.5 percent or higher on two occasions supports a diagnosis of type 2 diabetes."},
+    {"doc_id": "DOC-010", "source": "adverse-event:dvt", "text": "Deep vein thrombosis presents with unilateral leg swelling and pain. Confirm with compression ultrasonography."},
+    {"doc_id": "DOC-011", "source": "pharmacology:ace-inhibitor", "text": "ACE inhibitors can cause hyperkalaemia and a dry cough. Check potassium and creatinine within two weeks of starting therapy."},
+    {"doc_id": "DOC-012", "source": "policy:consent", "text": "Participants must give written informed consent before any trial-specific procedure is performed."}
+  ],
+  "mandates": [
+    {"patient_id": "P001", "mandate": "Avoid NSAIDs: chronic kidney disease stage 3."},
+    {"patient_id": "P001", "mandate": "Metformin dose must not exceed 2000 mg per day."},
+    {"patient_id": "P002", "mandate": "No warfarin co-prescription without INR review."}
+  ],
+  "trials": [
+    {"trial_id": "AEG-TR-001", "title": "Oral glucose-lowering study", "status": "RECRUITING", "max_enrollment": 200, "primary_endpoint": "HbA1c change at week 24"},
+    {"trial_id": "AEG-TR-002", "title": "Ulcerative colitis biologic, phase II", "status": "ACTIVE", "max_enrollment": 120, "primary_endpoint": "Clinical remission at week 12"}
+  ]
+}
